@@ -151,7 +151,7 @@ class ServeThread extends Thread {
             }
 
             if (!file.toString().startsWith(_rootDir.toString())) {
-                // Uh-oh, it looks like some lamer is trying to take a peek
+                // it looks like some lamer is trying to take a peek
                 // outside of our web root directory.
                 sendError(out, 403, "Permission Denied.");
             }
@@ -202,8 +202,8 @@ class ServeThread extends Thread {
                 try {
                     reader.close();
                 }
-                catch (Exception anerr) {
-                    // Do nothing.
+                catch (Exception err) {
+                    
                 }
             }
         }
