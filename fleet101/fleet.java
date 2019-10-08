@@ -27,7 +27,7 @@ public class fleet extends Thread {
         MIME_TYPES.put(".jpg", image + "jpeg");
         MIME_TYPES.put(".jpeg", image + "jpeg");
         MIME_TYPES.put(".png", image + "png");
-        String text = "text/";
+        // String text = "text/";
         MIME_TYPES.put(".html", "text/html");
         MIME_TYPES.put(".htm", "text/html");
         MIME_TYPES.put(".js", "text/js");
